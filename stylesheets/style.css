@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+footer {
+  padding: 4em; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      margin-right: 20px; }
+      footer ul li a {
+        color: #FFFFFF; }
+        footer ul li a:hover {
+          color: #FFFFFF;
+          text-decoration: underline; }
+  footer .social a {
+    padding: 10px;
+    color: #FFFFFF; }
+    footer .social a:hover {
+      color: #e6e6e6; }
+
+.banner-container {
+  text-align: center;
+  position: relative; }
+  .banner-container .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 4em;
+    font-weight: bold; }
+
+form.container, .comments {
+  max-width: 700px;
+  border: #EEE 1px solid;
+  border-radius: 20px;
+  margin-bottom: 3em;
+  padding: 2em; }
+
+.comments  {
+  max-width: 700px;
+  border: #EEE 1px solid;
+  border-radius: 20px;
+  margin: 2em;
+  padding: 2em; }
+
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/*# sourceMappingURL=style.css.map */
